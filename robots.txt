@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sarah-stitches.netlify.app/sitemap.xml
