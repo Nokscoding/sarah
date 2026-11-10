@@ -47,3 +47,62 @@
 @media(max-width:560px){.heroimage{animation:none}.catgrid i .ui-icon{height:25px;width:25px}.svicon .ui-icon{height:37px;width:37px}.seo-cards article{padding:24px}.seo-cards h3{font-size:26px}}
 @media(prefers-reduced-motion:no-preference){.js-reveal{opacity:0;transform:translateY(23px);transition:opacity .72s ease,transform .72s cubic-bezier(.16,.8,.25,1);transition-delay:var(--reveal-delay,0ms)}.js-reveal.is-visible{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){.hero h1,.herotext .kicker,.herotext .lead,.herotext .actions,.herofoot,.heroimage,.menu.open{animation:none!important}.js-reveal{opacity:1!important;transform:none!important;transition:none!important}}
+
+
+/* Sarah Stitches official identity — green, gold and cream */
+:root{--green:#0f4428;--dark:#0d3522;--sage:#e8ede5;--cream:#fbf6ee;--beige:#d3b887;--gold:#b8892f}
+.head{background:#fffaf3}
+.nav{min-height:95px;gap:20px}
+.brand{flex:0 1 auto;min-width:0;gap:0;display:inline-flex;align-items:center}
+.brand-logo-desktop{display:block;max-width:100%;width:clamp(244px,27vw,342px);height:auto;max-height:93px;object-fit:contain}
+.brand-logo-mobile,.brand-mobile-title{display:none}
+.menu{gap:clamp(12px,1.4vw,25px)}
+.booklink{background:var(--green)}
+.booklink:hover{background:#092c18}
+.footer-brand-logo{width:265px;max-width:100%;height:auto}
+.footbrand{display:inline-block;max-width:100%}
+.footbrand:hover{opacity:.9}
+.hero h1 i,.interior-intro h1 em,h2 em{color:#1b5633}
+.endcta{background:linear-gradient(110deg,#0e3822,#234e34)}
+.btn{border-color:var(--green)}
+.local-service-note{display:flex;flex-direction:column;gap:10px;margin:27px auto;padding:27px 32px;background:#f8f4ec;border-left:3px solid var(--gold);border-radius:3px}
+.local-service-note>span{color:#836820;font-weight:700;letter-spacing:.19em;font-size:10px}
+.local-service-note p{max-width:940px;color:#4b5b4d;font-size:14px;line-height:1.8;margin:0}
+.local-service-note>a{font-size:12px;font-weight:700;color:var(--green);display:inline-flex;align-items:center;gap:8px;width:max-content;max-width:100%;padding:4px 0;border-bottom:1px solid #9fac98}
+.local-service-note>a svg{width:16px;height:16px}
+.local-services-link{padding-bottom:70px}
+.local-landing .services-preview{background:#f8f6f0}
+.lawrenceville-details{display:grid;grid-template-columns:.85fr 1.15fr;gap:75px;align-items:start}
+.lawrenceville-details h2{font:400 clamp(36px,4vw,54px)/1.2 'Playfair Display',serif;letter-spacing:-.04em;margin:0}
+.lawrenceville-details p{color:#667061;font-size:15px;margin-top:0}
+.local-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:32px}
+.local-steps article{background:#fff;padding:28px;border:1px solid #dbe4d5;border-radius:6px}
+.local-steps article span{font:italic 22px 'Playfair Display',serif;color:#a77b29}
+.local-steps h3{font:400 25px 'Playfair Display',serif}
+.local-steps p{font-size:14px;color:#667062}
+@media(max-width:1080px){
+ .hamb{display:block}
+ .menu{display:none;position:absolute;top:94px;left:0;right:0;background:#fffaf3;border-top:1px solid #e1e4d9;box-shadow:0 18px 22px #2d423018;padding:17px;flex-direction:column;align-items:stretch;gap:0}
+ .menu.open{display:flex}
+ .menu a{font-size:14px;padding:15px;border-bottom:1px solid #eee}
+ .menu .booklink{justify-content:center;border:0;margin-top:12px}
+}
+@media(max-width:800px){
+ .nav{min-height:80px}
+ .menu{top:79px}
+}
+@media(max-width:700px){
+ .local-steps,.lawrenceville-details{grid-template-columns:1fr;gap:24px}
+ .local-steps{gap:13px}
+}
+@media(max-width:560px){
+ .nav{min-height:74px}
+ .brand-logo-desktop{display:none}
+ .brand-logo-mobile{display:block;width:51px;height:55px;object-fit:contain}
+ .brand-mobile-title{display:block;font:400 23px 'Playfair Display',serif;color:#123b24;letter-spacing:-.035em;white-space:nowrap}
+ .brand{gap:8px}
+ .menu{top:73px}
+ .local-service-note{padding:19px;margin:20px auto}
+ .footer-brand-logo{width:235px}
+}
+@media(max-width:350px){.brand-mobile-title{font-size:20px}.brand-logo-mobile{width:42px}}
